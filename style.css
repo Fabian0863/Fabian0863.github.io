@@ -1,0 +1,58 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgray;
+}
+
+header {
+    text-align: center;
+    border: solid 2px black;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    z-index: 2;
+}
+
+nav {
+    text-align: center;
+}
+
+#Huidig {
+    color: red;
+}
+
+a {
+    color: darkblue;
+    text-decoration-line: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration-line: underline;
+}
+
+#hoofdtekst {
+    display: flex;
+    margin: 15px;
+}
+
+#tekst {
+    display: flex;
+    margin: 15px;
+}
+
+ul li {
+    list-style: square;
+}
+
+img, video {
+    padding: 15px;
+}
+
+#error {
+    display: flex;
+    justify-content: center;
+}
+
+#errordiv {
+    width: 1200px;
+    padding-top: 20px;
+}
